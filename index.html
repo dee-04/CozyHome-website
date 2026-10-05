@@ -125,6 +125,7 @@ function freshAddonState(){
  return {
   sofa:Object.fromEntries(Object.keys(ESTIMATOR_CONFIG.addOns.sofa.items).map(k=>[k,0])),
   mattress:Object.fromEntries(Object.keys(ESTIMATOR_CONFIG.addOns.mattress.items).map(k=>[k,0])),
+  petWaste:Object.fromEntries(Object.keys(ESTIMATOR_CONFIG.addOns.petWaste.items).map(k=>[k,0])),
   clothesFolding:false
  };
 }
